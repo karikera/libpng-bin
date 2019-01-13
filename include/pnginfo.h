@@ -98,7 +98,7 @@ struct png_info_def
     * files containing ambiguous data and this will result in inconsistent
     * behavior between different libpng builds!)
     */
-   png_colorspace colorspace;
+   // png_colorspace colorspace; // karikera: what is this??
 #endif
 
 #ifdef PNG_iCCP_SUPPORTED
